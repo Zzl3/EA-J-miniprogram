@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<image src="/static/welcome-background.png" mode="bottomright" style="width: 100%; height: 100%; position:absolute; z-index: -1; "/>
+
+<view class="container">
+    <view class="welcome-buttom" bindtap="cardTapHandler">
+        <image src="/static/index-icon-enterSystem.png" mode="widthFix" style="width: 400rpx;" />
+    </view>
+    <view class="welcome-logo">
+        <view class="logo-left">
+            <view class="left-right-backgrounds">
+                <image src="/static/tongji-logo.jpeg" mode="widthFix" style="width: 100rpx;" />
+            </view>
+            <view class="welcome-logo-text">同济大学</view>
+        </view>
+        <view class="logo-right">
+            <view class="left-right-backgrounds">
+                <image src="/static/studio-logo.png" mode="widthFix" style="width: 100rpx;"/>
+            </view>
+            <view class="welcome-logo-text">EATJ项目组</view>
+        </view>
+    </view>
+</view>
+
+

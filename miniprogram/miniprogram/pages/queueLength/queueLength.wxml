@@ -1,0 +1,10 @@
+<!--pages/queueLength/queueLength.wxml-->
+
+<image src="/static/queueLength-background.png" mode="scaleToFill" style="width: 100%; height: 100%; position: absolute; z-index: -1; "/>
+
+<view class="queue-map">
+    <image src="/static/queue-map.png" mode="widthFix" style="width: 640rpx;"/>
+</view>
+<view class="return_box" bindtap="cardTapHandler">
+    {{'< back'}}
+</view>

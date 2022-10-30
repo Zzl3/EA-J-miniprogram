@@ -1,0 +1,25 @@
+/* pages/queueLength/queueLength.wxss */
+
+.queue-map{
+    position:absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    width: 83%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    /*background-color: black;*/
+}
+
+.return_box{
+    position:absolute;
+    left: 8%;
+    top: 84%;
+    font-size:45rpx;
+    font-family:cursive;
+    font-weight: bolder;
+    color: white;
+}
