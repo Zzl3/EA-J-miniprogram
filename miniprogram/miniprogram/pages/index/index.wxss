@@ -13,6 +13,13 @@
     justify-content: center;
 }
 
+#loginl{
+    position: absolute;
+    width: 75%;
+    height:28%;
+    top: -150rpx;
+}
+
 .welcome-buttom{
     /**方位大小**/
     position: absolute;

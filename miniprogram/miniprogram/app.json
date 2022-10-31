@@ -3,7 +3,8 @@
         "pages/index/index",
         "pages/option/option",
         "pages/foodIntro/foodIntro",
-        "pages/queueLength/queueLength"
+        "pages/queueLength/queueLength",
+        "pages/login/login"
     ],
     "window": {
         "backgroundTextStyle": "light",
